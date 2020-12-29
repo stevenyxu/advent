@@ -30,6 +30,8 @@ lonelyEdges.forEach((v, k) => {
   }
 })
 
+// console.log(lonelyEdges);
+// console.log(lonelyTiles);
 console.log(Array.from(lonelyTiles).reduce((acc, v) => acc * v, 1));
 
 function reverse(str) {
